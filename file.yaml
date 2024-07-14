@@ -1,0 +1,18 @@
+file_type: csv
+dataset_name: df_rating
+file_name: Books_rating
+table_name: books_rating
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns:
+    - id
+    - title
+    - price
+    - user_id
+    - profile_name
+    - review_helpfulness
+    - review_score
+    - review_time
+    - review_summary
+    - review_text
